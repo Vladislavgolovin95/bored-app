@@ -6,7 +6,7 @@ const btnActiveNode = document.getElementById('bored__btn');
 
 // Обработчик событий при клике на кнопку
 btnActiveNode.addEventListener('click', function() {
-    fetch('http://www.boredapi.com/api/activity/')
+    fetch('https://www.boredapi.com/api/activity/')
     .then(activity => activity.json())
     .then((res) => {
 
